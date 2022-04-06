@@ -1,0 +1,81 @@
+body {
+    background-color:rgb(250, 250, 235);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50rem;
+    height: 40rem;    
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(151, 150, 148);
+    padding-bottom: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 1rem rgb(63, 36, 27);
+    margin-top: 3rem;
+}
+
+h2 {
+    font-size: 4rem;
+    margin: 1rem;
+    color: rgb(148, 47, 0);
+    border-bottom: 5px solid rgb(184, 69, 24);
+}
+
+h6 {
+    font-size: 4rem;
+    color: rgb(156, 51, 19);
+    margin: 0;
+}
+
+#clientPosition {
+    font-size: 2rem;
+    margin: 1rem;
+    color: rgb(250, 105, 48);
+    text-decoration: underline;
+}
+
+#clientReview {
+    font-size: 1.6rem;
+    margin: 3rem;
+    color: rgb(14, 14, 85);
+}
+
+button {
+    display: block;
+    position: absolute;
+    margin-top: 3.5rem;
+    width: 11rem;
+    height: 2.5rem;
+    background-color: rgb(255, 238, 230);
+    border-radius: 15px;
+    border: 1px solid transparent;
+    box-shadow: .3rem .3rem .5rem rgb(53, 50, 50);
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+    color: rgb(218, 82, 29);
+}
+
+button:hover {
+    background-color: rgb(184, 69, 24);
+    color: rgb(255, 238, 230);
+    border: 1px solid rgb(56, 44, 44);
+}
+
+button:active {
+    box-shadow: none;
+}
+
+a {
+    text-decoration: none;
+    margin: 3rem;
+}
